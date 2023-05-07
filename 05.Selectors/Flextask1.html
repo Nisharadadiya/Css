@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } */
+        .top{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+          
+        }
+        .Confused{
+            flex-grow: 3;
+        }
+        .Happy{
+            flex-grow: 2;
+        }
+        .Sad{
+            flex-grow: 10;
+        }
+        .Confused,.Happy,.Sad{
+            height: 200px;
+            background-color: rgb(28, 78, 154);
+            margin-right: 5px;
+            border: 3px solid;
+        
+        }
+        .bottom{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            height: 30px;
+            margin-top: 5px;
+            border: 3px solid;
+        }
+        .warm{
+            flex-grow: 6;
+            background-color: aqua;
+        }
+        .cool{
+            flex-grow: 3;
+            background-color: tomato;
+        }
+        .hot{
+            flex-grow: 1;
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    
+        <div class="top">
+            <div class="Confused">Confused</div>
+            <div class="Happy">Happy</div>
+            <div class="Sad">Sad</div>
+        </div>
+
+        <div class="bottom">
+            <div class="warm">warm</div>
+            <div class="cool">cool</div>
+            <div class="hot">hot</div>
+        </div>
+
+  </body>
+</html>
