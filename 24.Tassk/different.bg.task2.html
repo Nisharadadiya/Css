@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .p-relative{
+            position: relative;
+        }
+        .p-abs{
+            position: absolute;
+        }
+        .sec-bg{
+            background-color: rgb(52, 51, 51);
+            
+        }
+        .sec{
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        .col-50{
+            width: 50%;
+        }
+        .left{
+            padding-right: 50px;
+        }
+        .sec-img{
+            width: 100%;
+        }
+        .sec-img img{
+            width: 100%;
+        }
+        .left h1{
+            font-size: 35px;
+            letter-spacing: 4px;
+            color: white;
+            font-family: sans-serif;
+            text-align: right;
+            padding: 40px 0;
+        }
+        .left h3{
+            font-size: 18px;
+            line-height: 28px;
+            color: orangered;
+            font-family: sans-serif;
+            text-align: right;
+            padding: 20px 0;
+        }
+        .left p{
+            font-size: 14px;
+            line-height: 28px;
+            color: rgb(185, 182, 182);
+            font-family: sans-serif;
+            text-align: right;
+            margin: 0 10px;
+        }
+        .sec-img1-p{
+            left: 600px;
+            top: 150px;
+        }
+        .sec-img2-p{
+            left: 600px;
+            top: 270px;
+        }
+        .sec-img3-p{
+            left: 600px;
+            top: 400px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <section class="sec-bg">
+        <div class="sec">
+            <div class="col-50 left p-relative">
+                <h1>Our Services</h1>
+                <div>
+                    <h3>WEB DESIGN</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel vitae velit sit qui eaque non harum quos optio perferendis sed. Neque delectus quasi blanditiis molestias?</p>
+                    </div>
+                <div class="p-abs sec-img1-p">
+                        <img src="img1.png" alt="">
+                    </div>
+                <div>
+                    <h3>PRINT DESIGN</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel vitae velit sit qui eaque non harum quos optio perferendis sed. Neque delectus quasi blanditiis molestias?</p>
+                </div>
+                <div class="p-abs sec-img2-p">
+                    <img src="img2.png" alt="">
+                </div>
+                <div>
+                   <h3>PHOTOGRAPHY</h3>
+                   <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel vitae velit sit qui eaque non harum quos optio perferendis sed. Neque delectus quasi blanditiis molestias?</P>
+                </div>
+                <div class="p-abs sec-img3-p">
+                    <img src="img3.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-50 right"> <div class="sec-img"><img src="img4.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

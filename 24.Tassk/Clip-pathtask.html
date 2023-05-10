@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #image-map{
+            background-image: url(image.png);
+            background-blend-mode: multiply;
+            background-color: rgb(67, 65, 65);
+            clip-path: polygon(100% 0, 100% 88%, 50% 100%, 0% 88%, 0 0);
+        }
+        .nav-bar{
+            display: flex;
+            line-height: 1px;
+            padding: 55px;
+            justify-content: space-between;
+        }
+        .logo{
+            padding: 1px 100px;
+
+        }
+        .nav-links{
+            padding-right: 30px;
+
+        }
+        ul li {
+            display: inline-block;
+            padding: 25px 20px;
+        }
+        ul li a{
+            text-decoration: none;
+            font-size: 15px;
+            color: white;
+            font-weight: 400;
+            font-family: sans-serif;
+        }
+        .container{
+            width: 1170px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .back{
+            padding: 50px 0;
+        }
+        .sec-1 h3{
+            font-size: 25px;
+            color: white;
+            font-weight: 400;
+            font-family: sans-serif;
+            padding: 20px 0;
+
+        }
+        .sec-1 h1{
+            padding: 20px 0;
+            font-size: 73px;
+            letter-spacing: 7px;
+            color: white;
+            font-weight: 700;
+            /* font-family: sans-serif; */
+            text-align: center;
+        }
+        p{
+            width: 600px;
+            margin: 0 auto;
+            font-size: 15px;
+            padding: 20px 0;
+            color: white;
+            /* font-family: sans-serif; */
+            text-align: center;
+        }
+        .li-dot{
+            display: inline;
+            font-size: 38px;
+            font-weight: 900;
+            margin: 0 auto;
+        }
+        .btn{
+            font-size: 15px;
+            color: white;
+            font-weight: 700;
+            background-color: orangered;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 0 10px;
+            
+        }
+        .spn a{
+            text-decoration: none;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="bg-image" id="image-map">
+        <header>
+            <nav class="nav-bar">
+                <div class="logo"><img src="Logo.png" alt=""></div>
+
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </header>
+        <div class="back">
+           <div class="container sec-1 back">
+            <h3>Our Client are our First priority</h3>
+            <h1>WELCOME TO SKY</h1>
+            <div>
+            <span>________</span>
+            <span>
+                <li style="color: red;" type="disc" class="li-dot">.</li>
+            </span>
+            <span>________</span>
+           </div>
+
+           <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus animi illum ab fuga dolorem repudiandae voluptatum totam! Delectus voluptatem a maxime? Veniam expedita ab provident dolor at rem sit dicta.
+           </p>
+           <button class="btn">GET STARTED NOW</button>
+
+           <span class="spn"><a href="#">LEARN MORE</a></span>
+        </div>
+           
+        </div>
+    </section>
+    
+</body>
+</html>
