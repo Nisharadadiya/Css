@@ -37,6 +37,7 @@ img{
     line-height: 87px;
     color: white;
     font-family: sans-serif;
+    padding: 20px ;
 
     
 }
@@ -55,3 +56,161 @@ img{
     width: 100%;
     padding-top: 150px;
 }
+.cursue{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    color: #9baf6d;
+    font-size: 50px;
+    margin-left: 50px;
+    text-align: left;
+    padding: 10px 50px;
+    margin-bottom: 20px;
+    
+}
+.sqr{
+    font-family: sans-serif;
+}
+.btn{
+    font-family: sans-serif;
+    color: white;
+    background-color: orangered;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 11px 24px;
+    text-decoration: none;
+}
+.sec-bg{
+    background-color:#dec89d
+}
+.row{
+    padding-top:300px
+}
+.col-40{
+    width: 40%;
+}
+.col-60{
+    width: 60%;
+}
+.sec{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.col-40 p{
+    margin: 40px;
+}
+.col-40 h2{
+    margin: 40px;
+}
+.left{
+    padding-right: 50px;
+}
+.sec-img{
+    width: 100%;
+}
+.left h2{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: rgb(173, 88, 57);
+    justify-content: center;
+    text-align: left;
+}
+.left p{
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+    /* justify-content: center; */
+    text-align: left;
+
+}
+.menu-sec{
+    height: 1400px;
+    background-color: #e19063;
+}
+.menu-media img{
+    border-radius: 50%;
+}
+.sec-title{
+   font-size: 50px;
+   color: white;
+   text-align: center;
+   font-family: 'Dancing Script', cursive;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Satisfy', cursive;
+}
+.intro-menu{
+    max-width: 650px;
+    margin: 0 auto 40px;
+    padding-top: 150px;
+}
+.intro-menu p{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.menu-info{
+    margin-top: 30px;
+    color: white;
+}
+.card-1{
+    display:flex;
+    gap: 100px;
+    margin: 55px 190px;
+}
+.menu-info h3{
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    
+}
+.menu-info p{
+    text-align: center;
+    margin-top: 20px;
+   
+
+}
+.btn2{
+    padding: 11px 24px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+    margin: 534px;
+}
+.testimonial-sec{
+    height: 500px;
+    background-image: url(review.png);
+    background-blend-mode: multiply;
+    background-color: #b36848af;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0px;
+    color: white;
+}
+.intro-main h2{
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+.review{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.review p{
+    font-size: 28px;
+    font-family: sans-serif;
+}
+   
